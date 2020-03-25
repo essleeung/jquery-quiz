@@ -1,0 +1,10 @@
+Question: What does this color make you feel?
+
+Colors: Red[-3], Orange[-2], Yellow[-1], || Green[1], Blue[2], Purple[3]
+
+Options: Happy[6], Calm[5], Scared[4], Sad[3], Disgusted[2], Angry[1]
+
+Responses:
+    1. GOOD (36) - High Points: 
+    2. NEUTRAL - 
+    3. BAD (-36) -
