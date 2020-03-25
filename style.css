@@ -1,10 +1,22 @@
 html,
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 }
 
-h1 {
-  color: chartreuse;
-  text-align: center;
+h1, h2, p {
+  text-shadow: 1px 1px grey;
+}
+
+.container {
+  width: 40%;
+}
+p, .answer {
+  font-size: 25px;
+}
+#imageResult {
+  margin: 0 auto; 
+} 
+img {
+  display: block;
 }

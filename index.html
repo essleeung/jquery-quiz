@@ -2,13 +2,61 @@
 <html>
 <head>
   <title>JQuery Quiz</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="./style.css">
+  <link rel='stylesheet' type='text/css' href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css'>
+
 </head>
-<body>
-  <h1>Quiz Time!</h1>
+
+<body id='colorBox' class='container'>
+  <h1 class='py-3 text-center'>Color Personality Quiz</h1>
   <!-- TODO: ADD YOUR HTML CODE HERE -->
-  
+  <form>
+    <h2 class='mx-auto text-center' id='Question Title'> How does this color make you feel?</h2>
+    <p class='text-center'>Pick a color and the quiz will let you know what your inner world is like.</p>
+    <div class='row text-center btn-group-toggle' data-toggle="buttons" >
+      <label class="col btn btn-light m-2">
+        <input type='radio' name='answer' class='answer' value='Happy'> Happy
+      </label>
+      <label class="col btn btn-light m-2">
+        <input type='radio' name='answer' class='answer' value='Calm'> Calm
+      </label>
+      <label class="col btn btn-light m-2">
+        <input type='radio' name='answer' class='answer' value='Scared'> Scared
+      </label>
+      <div class="w-100"></div>
+      <label class="col btn btn-light m-2">
+        <input type='radio' name='answer' class='answer' value='Sad'> Sad
+      </label>
+      <label class="col btn btn-light m-2">
+        <input type='radio' name='answer' class='answer' value='Disgusted'> Disgusted <br>
+      </label>
+      <label class="col btn btn-light m-2">
+        <input type='radio' name='answer' class='answer' value='Angry'> Angry
+      </label>
+    </div>
+    </div>
+    <div class='py-3 mx-auto text-center'>
+      <button type='button' class="btn-lg btn-primary" id='goBack'>Go Back</button>
+      <button type='submit' class="btn-lg btn-primary" id='submit'>Submit Answer</button>
+    </div>
+  </form>
+    <p id='messageResult' class="py-5 text-center"></p>
+    <img src='' id='imageResult' class="text-center">
+  </div>
+
+  <div id='errorBox'></div>
+
+
+
   <!-- TODO: ADD JQUERY DEPENDENCY -->
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
   <!-- TODO: ADD YOUR JS FILES -->
+  <script src='index.js'></script>
 </body>
+
 </html>
+

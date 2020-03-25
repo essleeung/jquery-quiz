@@ -53,6 +53,7 @@ const submitAnswer = (e) => {
             question.answer = answers[i].value
             console.log(answers[i].value)
             scoreTotal += question.multiplier * questionScores[i]
+            console.log('Checker:' + question.multiplier + ',' + questionScores[i] + ',' +scoreTotal)
             nextQuestion()
         } else {
             $('#errorBox').text = 'Please select an answer'
